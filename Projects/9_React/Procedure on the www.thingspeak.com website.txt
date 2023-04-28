@@ -1,0 +1,36 @@
+1. Sign In/ Sign Up at www.thingspeak.com
+
+2. Click Apps Tab in the Top close to Channels Tab
+
+3. You will see a list of AppNames and Boxes
+
+4. If you havent connected your twitter with thingspeak.com Please follow the steps in Project 12 folder
+
+5. Select React App
+
+6. Create your New React by clicking the New react button
+
+7. Fill the Following details
+	1.React Name: 		Any Name
+	2.Conditional Type:   Select Numeric
+	3.Test Frequency:	On Data Insertion
+	4.Select Channel:	Select the Channel where you Upload 						Obstacle Distance values
+	5.field:              Select 1(Distance) field
+					is greater than
+					Any Value you thing between 2cm and 						10cm
+	6.Action:			ThingTweet
+	7.then tweet:		Write Any Content you want to tweet 						when the above condition occurs
+	8.using Twitter Account: Select the pre-registered Twitter 							Account
+	9.Options:			Your choice
+					Run action only the first time the 						condition is met
+							(or)
+					Run action each time condition is met
+8. Click Save React Button
+
+9. Go to Channels > Your Obstacle Monitoring Channel
+
+10. Click Private View
+
+11. Open your twitter Account in a New tab
+
+12. Place an obstacle at various distance to your ultrasonic sensor to see changes in the graph and your twitter Account

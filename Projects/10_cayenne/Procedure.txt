@@ -1,0 +1,9 @@
+1.Sign Up an account in mydevices.com
+
+2. Select Rapberry Pi
+
+3. Copy the command from the webpage and paste in your ssh terminal and run it
+
+4. It will download about 10 MB of data and install cayenne libraries and drivers
+
+5. Once done you can control and Monitor your Pi from mydevices.com
